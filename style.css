@@ -1,0 +1,59 @@
+body {
+	background-color: beige;
+    font-size: large;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 29px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+	margin: 0 auto;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	max-width: 800px;
+	border: 10px solid black;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form label {
+	margin: 10px 0;
+	font-size: 18px; /* change font size of form text */
+}
+
+form input[type="text"],
+form input[type="password"] {
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	font-size: 18px; /* change font size of input text */
+}
+
+form input[type="submit"] {
+	padding: 20px 30px;
+	background-color: #4CAF50;
+	color: #fff; /* change text color of submit button */
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+	background-color: #3E8E41;
+}

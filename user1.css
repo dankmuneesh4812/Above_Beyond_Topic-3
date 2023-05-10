@@ -1,0 +1,72 @@
+/* Import Bootstrap */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+body {
+	background-color: #f8f8f8;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 50px 0;	
+}
+
+.car-info {
+    padding: 50px 0;
+	align-items:normal;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.car-info img {
+	width: 100%;
+	max-width: 650px;
+	height: auto;
+	margin-bottom: 30px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.car-info h1 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	
+}
+
+.car-info p {
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: justify;
+}
+
+.car-info h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.car-info ul {	
+	margin-left: 28px;
+	font-size: 22px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	text-align: justify;
+	font-style: italic;	
+}
+
+.car-info li {
+	margin-bottom: 10px;
+}
+
+.car-info a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.car-info a:hover {
+	text-decoration: underline;
+}

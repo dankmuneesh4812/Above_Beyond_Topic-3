@@ -1,0 +1,44 @@
+/* Import Bootstrap */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+/* Set background color */
+body {
+  background-color: #F0DBA6;
+}
+
+/* Set container width */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style for car information section */
+.car-info {
+  padding: 50px 0;
+}
+
+.car-info h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.car-info p {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+}
+
+.car-info ul {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-style:oblique;
+    font-weight: bold;
+  }
+
+.car-info img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
